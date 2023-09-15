@@ -1,0 +1,56 @@
+.hero{
+    margin-top: 60px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  
+    margin-left: 50px;
+    
+}
+
+.contact-heading{
+    margin-top: 100px;
+    margin-bottom: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 900;
+    font-size: 35px;
+}
+.container{
+    background-color: rgb(24,52,113);
+    /* border: 2px solid black; */
+    padding: 30px;
+}
+
+.input-group-up{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 10px;
+   
+    
+}
+
+.input-group{
+display: flex;
+flex-direction: column;
+}
+.input-group input, .input-group-up select,.input-group textarea{
+    margin-bottom: 20px;
+    padding: 15px;
+    font-size: 16px;
+}
+.input-group input:focus,.input-group textarea:focus,.input-group-up select:focus{
+    outline: 0;
+}
+.contacus-button-send{
+    background-color: #da7426;
+    color: white;
+    padding: 15px 49px;
+    border: 1px solid #da7426;
+}
+.contacus-button-send:hover{
+border: 0.5px solid #da7426 ;
+background-color: transparent;
+color: #da7426;
+transition: 0.45s;
+}

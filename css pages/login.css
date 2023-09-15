@@ -1,0 +1,72 @@
+body{
+    margin: 0;padding: 0;
+    background: rgb(22,135,144);
+background: linear-gradient(90deg, rgba(22,135,144,1) 0%, rgba(49,121,9,1) 37%, rgba(0,146,255,0.908000700280112) 75%);
+/* background-attachment: fixed; */
+}
+.container{
+    /* border: 2px solid black; */
+}
+#form{
+    border: 1px solid black;
+    width: 400px;
+    background-color: whitesmoke;
+    margin: 20vh auto 0 auto;
+    border-radius: 5px;
+    padding: 30px;
+}
+h1{
+    text-align: center;
+    color: rgb(59,127,48);
+    font-size: 50px;
+}
+/* .mava{
+ display: flex;
+    justify-content: end;
+} */
+#reg{
+    background-color: rgb(59,127,48);
+    border: none;
+    width: 100%;
+    padding: 10px;
+    font-size: 20px;
+    margin: 20px 0px;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+.input-group{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+/* .input-group label{
+    margin-bottom: 5px;
+} */
+.input-group input{
+    padding: 10px ;
+    font-size: 15px;
+    border-radius: 5px;
+    margin-top: 6px ;
+    border: 1px solid rgb(22,135,144);
+
+}
+.input-group input:focus{
+    outline: 0;
+}
+.input-group .error{
+    margin-top: 3px;
+    color: red;
+    font-size: 18px;
+}
+
+/*        */
+
+.input-group .success input{
+    border-color: #0cc477;
+
+}
+.input-group .error input{
+    border-color: red;
+
+}

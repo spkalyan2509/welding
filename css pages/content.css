@@ -1,0 +1,61 @@
+.content-main{
+    height: 100vh;
+    width: 100%;
+    background-image: url('./hero-bg.jpg');
+    background-size: cover;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+   position: relative; */
+   
+}
+
+.homepage-discribe{
+    color: white;
+     position: absolute;
+     font-size: 65px;
+     font-weight: bolder;
+     left: 100px;
+     top: 190px;
+     text-align: left;
+     
+
+}
+
+.read-button{
+    position: absolute;
+ left: 100px;
+     top: 520px;
+    
+}
+.read,.contact-home{
+    font-size: 17px;
+    padding: 12px 35px;
+    border: 1px solid #da7426;
+    margin-right: 10px;
+    border-radius: 4px;
+    transition: 0.5s;
+
+    
+}
+.read{
+background-color: white;
+color: black;
+
+}
+.contact-home{
+    background-color: #da7426;
+color: white;
+}
+.read:hover{
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    
+}
+.contact-home:hover{
+    background-color: transparent;
+    color: #da7426;
+    border: 1px solid #da7426;
+   
+}

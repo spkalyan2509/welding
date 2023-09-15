@@ -1,0 +1,54 @@
+
+.about-page-hero{
+    /* border: 2px solid red; */
+    margin-top: 70px;
+    padding: 60px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+
+
+
+}
+
+.about-part-side{
+    width: 500px;
+    margin-left: 40px;
+    display: flex;
+    flex-direction: column;  
+}
+.about-part-image-side{
+    margin-left: 100px;
+    flex: 1;
+    padding-left: 30px;
+}
+
+.about-heading{
+    font-size: 30px;
+    font-weight: 800;
+    margin-bottom: -10px;
+    
+}
+.about-discription{
+   margin-top: -10px;
+    text-align: left;
+    text-overflow: none;
+    color: rgba(14, 13, 13, 0.795);
+}
+
+.read-more{
+    margin-top: 25px;
+    font-size: 20px;
+   border: none;
+   padding: 10px;
+    background-color: #da7426;
+    width: 170px;
+    color: white;
+    transition: 0.55s;
+}
+.read-more:hover{
+    border: 1px solid #da7426;
+    background-color: white;
+    color: #da7426;
+    cursor: pointer;
+}

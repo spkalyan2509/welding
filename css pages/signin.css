@@ -1,0 +1,61 @@
+h1{
+           
+    text-align: center;
+    color: rgba(165, 28, 165, 0.9);
+}
+.signin-container{
+    /* border: 2px solid black; */
+}
+.signin-form{
+    /* background: rgb(78,178,186);
+    background: linear-gradient(90deg, rgba(78,178,186,1) 20%, #4cb332f1 51%, rgba(74,177,54,1) 76%, rgba(0,146,255,0.908000700280112) 99%); */
+    background-color: whitesmoke;
+    width: 400px;
+    margin: 20vh auto 0 auto;
+    padding: 30px;
+   
+}
+.signin-input-group {
+display: flex;
+flex-direction: column;
+padding: 10px;
+background-color: whitesmoke;
+
+}
+.signin-input-group input{
+    margin-bottom: 10px;
+    padding: 10px;
+    border: none;
+    border-bottom: 2px solid rgba(165, 28, 165, 0.5);
+    font-size: 18px;
+
+}
+.signin-input-group input:hover{
+    border-bottom: 2px solid rgba(165, 28, 165, 1);
+    transition: 0.75s;
+}
+.signin-input-group input:focus{
+    outline: 0;
+}
+.signin-input-group button{
+    margin-bottom: 70px;
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 20px;
+    border: none;
+    background-color: rgba(179, 35, 159, 0.5);
+    color: white    ;
+}
+.signin-input-group button:hover{
+    background-color: rgba(179, 35, 159, 1);
+    transition: 0.35s;
+}
+.end-signin{
+    text-align: center;
+    font-size: 20px;
+    
+}
+.end-signin a{
+    text-decoration: none;
+    color: rgba(179, 35, 159, 1);
+}
